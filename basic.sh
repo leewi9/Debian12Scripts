@@ -20,6 +20,6 @@ apt install -y ntpdate
 ntpdate -u time.nist.gov
 
 # common tools
-sudo apt-get install -y git vim zip htop wget tree lrzsz
+sudo apt-get install -y git vim zip htop wget tree lrzsz cron
 sudo apt-get -y upgrade
 sudo apt-get -y autoremove
